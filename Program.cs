@@ -12,8 +12,10 @@ namespace W5_assignment_template
             var character = new Character();
             var goblin = new Goblin();
             var ghost = new Ghost();
+            var archer = new Archer();
+            var mage = new Mage();
 
-            var gameEngine = new GameEngine(character, goblin, ghost);
+            var gameEngine = new GameEngine(character, goblin, ghost, archer, mage);
             gameEngine?.Run();
         }
 
